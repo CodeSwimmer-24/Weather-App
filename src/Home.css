@@ -1,0 +1,145 @@
+.title__line > h1 {
+  padding-top: 50px;
+  padding-left: 50px;
+  font-size: 55px;
+  color: rgb(85, 150, 248);
+  font-family: "Raleway", sans-serif;
+}
+.title__line {
+  display: flex;
+}
+.title__line > img {
+  height: 70px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.home__title > p {
+  padding-top: 10px;
+  padding-left: 50px;
+  font-size: 25px;
+  color: rgb(0, 119, 255);
+  font-family: "Raleway", sans-serif;
+}
+.temperature__search {
+  background-color: rgb(36, 47, 63);
+  width: 35%;
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 49px;
+  border-radius: 50px;
+}
+.temperature__search > input {
+  padding: 10px;
+  flex: 1;
+  width: 65%;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+.temperature__search > input:focus {
+  outline-width: 0;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+.temperature__search > button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 50px;
+  border-radius: 50px;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(106, 162, 226);
+  color: white;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+.temperature__search > button:hover {
+  color: black;
+  background-color: white;
+}
+.temperature__date {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  margin-left: 85px;
+  margin-top: 20px;
+}
+.temperature__date > p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+.temperature__details {
+  height: 30vh;
+  width: 35%;
+  background-color: transparent;
+  margin-left: 40px;
+  /* margin-top: 10px; */
+  border-radius: 50px;
+  padding: 20px;
+}
+.temperature__city {
+  border-bottom: 1px solid rgb(36, 47, 63);
+  padding: 5px;
+}
+.temperature__city > h2 {
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  color: rgb(36, 47, 63);
+}
+.temperature__number {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.temperature__number > p {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  color: rgb(36, 47, 63);
+}
+/* .temperature__number > .MuiSvgIcon-root {
+  font-size: 100px !important;
+  color: gray !important;
+} */
+.temperature__notFound {
+  border-bottom: 1px solid rgb(36, 47, 63);
+  padding: 5px;
+  width: 35%;
+  margin-left: 40px;
+  padding: 20px;
+}
+.temperature__notFound > p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  color: rgb(36, 47, 63);
+}
+.sun {
+  font-size: 100px !important;
+  color: orange !important;
+}
+.cloud {
+  font-size: 100px !important;
+  color: gray !important;
+}
+.rain {
+  font-size: 100px !important;
+  color: rgb(0, 132, 255) !important;
+}
+.snow {
+  font-size: 100px !important;
+  color: rgb(238, 230, 230) !important;
+}
+.temperature {
+  display: flex;
+}

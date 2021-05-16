@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Route, Router, Switch } from "react-router";
+import "./App.css";
+import Home from "./Home";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src="https://www.bclocalnews.com/wp-content/uploads/2020/02/20665513_web_200224-LAT-Weather-Langley-Sun-and-Cloud_1-1024x683.jpg" />
+      <Home />
     </div>
   );
 }
